@@ -1,4 +1,21 @@
 /* General setup */
+@font-face {
+    font-family: 'Amatic SC';
+    src: url('newFonts/AmaticSC-Regular.woff2') format('woff2'),
+        url('newFonts/AmaticSC-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('newFonts/Raleway-ExtraBoldItalic.woff2') format('woff2'),
+        url('newFonts/Raleway-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
 
 html {
   font-size: 10px;
@@ -15,15 +32,18 @@ body {
 /* Typography */
 
 h1 {
+  font-family: 'Raleway';
   font-size: 3.2rem;
 }
 
 h2 {
+  font-family: 'Raleway';
   font-size: 2.4rem;
 }
 
 p {
-  font-size: 1.4rem;
+  font-size: 2rem;
   line-height: 1.6;
   word-spacing: 0.6rem;
+  font-family: 'Amatic SC'; 
 }
